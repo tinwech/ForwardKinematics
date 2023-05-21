@@ -1,22 +1,20 @@
-# Computer Animation and Special Effects HW2
+# Forward Kinematics
+
+This repository implements forward kinematics using C++ and OpenGL library.
+
+## Demo
+
+![ezgif-5-aff95fee08](https://github.com/tinwech/ForwardKinematics/assets/80531783/a01b6486-bc25-495d-a179-d3c82214ea8a)
 
 ## Build on Microsoft Windows with Visual Studio 2017/2019
 
 ### Instruction
 
-- Open ForwardKinematics.sln
+- Open SoftSim.sln
 - Build
 - Executable will be in ./bin
 
 ## Build on other platforms and/or compilers
-
-### :warning: **This method is not well-tested, so it may not work properly.**
-
-### :warning: **Thus, you are expected to solve buggy or trivial problems yourself.**
-
-### Some tested platforms (cmake 3.20):
-
-- Ubuntu Groovy Gorilla (20.10) with GCC   10.2.0
 
 ### Prerequisite
 
@@ -26,13 +24,14 @@
 ### Instruction
 
 - Run:
+
 ```bash=
 cmake -S . -B build
 cmake --build build --config Release --target install --parallel 8
 ```
 - Executable will be in ./bin
 
-### If you are building on Linux, you need one of these dependencies, usually `xorg-dev`
+If you are building on Linux, you need one of these dependencies, usually `xorg-dev`
 
 - `xorg-dev` (For X11)
 - `libwayland-dev wayland-protocols extra-cmake-modules libxkbcommon-dev` (For Wayland)
