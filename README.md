@@ -4,13 +4,13 @@ This repository implements forward kinematics using C++ and OpenGL library.
 
 ## Demo
 
-![ezgif-5-aff95fee08](https://github.com/tinwech/ForwardKinematics/assets/80531783/a01b6486-bc25-495d-a179-d3c82214ea8a)
+![ezgif-5-aff95fee08](https://github.com/tinwech/ForwardKinematics/assets/80531783/5b84846c-758b-47f0-a8d4-a36b2fad70c5)
 
 ## Build on Microsoft Windows with Visual Studio 2017/2019
 
 ### Instruction
 
-- Open SoftSim.sln
+- Open FowardKinematics.sln
 - Build
 - Executable will be in ./bin
 
